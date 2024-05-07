@@ -13,12 +13,12 @@ function Index() {
     </h1>
     </div>
     <div>
-    <div className="flex w-full" >
+    <div className="flex w-full " >
     <div className="bg-color justify-center px-4 py-4 w-full bg-slate-500 flex text-center"> <img src={search} alt=""
      width="auto" height="auto" className="max-w-7 max-h-13 w-full" />
      <input type="text" className=" bg-slate-900 px-5 mx-4 w-1/4"placeholder="Barra de pesquisa" /></div>
      </div>
-    <section className="flex margin m-8 justify-center ">
+    <section className=" flex gap-4 w-144 m-auto ">
     <div className="flex tex-center justify-center m-8 items-center">
     <div className="imgFundo">
     <img src={itb} width="auto" height="auto" alt="img huawei" className="max-w-60 max-h-13 w-full" />
@@ -34,9 +34,9 @@ function Index() {
     </div>
     </div>
     </section>
-    <section className="grid grid-cols-3 grid-rows-3 gap-0 w-144">
+    <section className="grid grid-cols-3 grid-rows-3 gap-4 w-144 m-auto">
     {item.map((item,index)=>(
-      <div className=" grid grid-cols-4 bg-slate-600 w-96 h-80 mx-8 my-8 rounded-lg" key={index}>
+      <div className=" grid grid-cols-4 bg-slate-600 w-96 h-80 my-8 rounded-lg" key={index}>
         <div className="">
         <img className="" src={item.img} alt="" />
         <p>{item.name}</p>
