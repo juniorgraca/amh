@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.imgFundo{
+  @apply bg-slate-400 rounded-lg border-2 border-gray-500 cursor-pointer text-center px-5 py-5 mx-3 ease-in-out delay-150  hover:bg-indigo-500 duration-300
+
+}
+
+
 *{
   box-sizing: border-box;
   margin: 0;
